@@ -21,7 +21,7 @@ const RecommendationUI = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [kodebaraKategoriMap, setKodebaraKategoriMap] = useState({});
 
-  const BASE_URL = "https://rekomendasi-backend-production.up.railway.app";  // URL backend 
+  const BASE_URL = "rekomendasi-backend-production.up.railway.app";  // URL backend 
 
   useEffect(() => {
     const fetchItems = async () => {
